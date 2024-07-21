@@ -1,25 +1,53 @@
+import { ApplicationError } from "../../errorHandler/applicationError.js";
 import CommentModel from "./comment.model.js";
+import CommentRepository from "./comment.repository.js";
 
 export default class CommentController{
-   
+   constructor(){
+      this.commentRepository=new CommentRepository
+   }
  
-     getUserCommentById(req,res){
-        let comment=CommentModel.getCommentById(req.params.id,req.params.id2);
-        res.status(200).send(comment);
+    async getUserCommentById(req,res){
+      try{
+         const comment =await this.commentRepository.getComment(req.params.postId);
+         res.status(200).json(comment);
+      }
+      catch(err){
+        console.log(err)
+        throw new ApplicationError("post is not found",401);
      }
+   }
+   async addComment(req,res){
+      try{
+         const comment =await this.commentRepository.createComment(req.body);
+         res.status(200).json(comment);
+      }
+      catch(err){
+         console.log(err)
+         throw new ApplicationError("post is not found",401);
+      }
+        
+     }
+    async updateComment(req,res){
+       try{
+         const comment =await this.commentRepository.updateComment(req.body);
+         res.status(200).json(comment);
+       }
+       catch(err){
+         console.log(err)
+         throw new ApplicationError("post is not found",401);
+       }
 
-     addComment(req,res){
-        let newComment=CommentModel.addComment(req.body);
-        res.status(200).send(newComment);
      }
-     updateComment(req,res){
-        let updateComment=CommentModel.updateComment(req.params.id,req.body);
-        res.status(200).send(updateComment);
-
-     }
-     deleteComment(req,res){
-        let deleteComment=CommentModel.deleteComment(req.params.id,req.params.id2);
-        res.status(200).send(deleteComment);
+     async deleteComment(req,res){
+       try{
+         const comment =await this.commentRepository.deleteComment(req.params.id);
+         res.status(200).json(comment);
+      }
+      catch(err){
+         console.log(err)
+         throw new ApplicationError("post is not found",401);
+      }
 
      }
 }

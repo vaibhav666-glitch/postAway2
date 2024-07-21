@@ -11,7 +11,7 @@ import { connectUsingMongoose } from "./src/config/mongooseConfig.js";
 
 const server=express();
 
-//server.use(express.static('public'));
+server.use(express.static('public'));
 
 
 server.use(bodyParser.json());
@@ -20,6 +20,15 @@ server.use("/api/user",UserRouter);
 server.use("/api/post",jwtAuth, PostRouter);
 server.use("/api/comment",jwtAuth,CommentRouter);
 server.use('/api/like',jwtAuth,LikeRouter);
+
+
+
+//  Middleware to handle 404 requests.
+server.use((req, res)=>{
+    res.status(404).send("API not found. Please check our documentation for more information at localhost:3200/api-docs")
+    })
+
+
 
 server.use((err, req, res, next)=>{
     console.log(err);

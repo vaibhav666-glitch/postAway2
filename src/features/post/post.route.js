@@ -4,11 +4,11 @@ import { uploadFile } from "../../middleware/fileUpload.middleware.js";
 
 const PostRouter=express.Router();
 const postController= new PostController();
-PostRouter.get("/",postController.getAllPost);
-PostRouter.get("/:id",postController.getUserPost);
-PostRouter.get("/:id/:id2",postController.getUserPostById);
-PostRouter.post("/",uploadFile.single('imageUrl'), postController.addPost);
-PostRouter.put("/:id",postController.updatePost);
-PostRouter.delete("/:id/:id2",postController.deletePost);
+PostRouter.get("/",(req,res)=>{postController.getAllPost(req,res)});
+PostRouter.get("/:id",(req,res)=>{postController.getUserPost(req,res)});
+PostRouter.get("/:id/:id2",(req,res)=>{postController.getUserPostById(req,res)});
+PostRouter.post("/",uploadFile.single('imageUrl'), (req,res)=>{postController.addPost(req,res)});
+PostRouter.put("/:id",(req,res)=>{postController.updatePost(req,res)});
+PostRouter.delete("/:id/:id2",(req,res)=>{postController.deletePost(req,res)});
 
 export default PostRouter;

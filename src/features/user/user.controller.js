@@ -1,30 +1,54 @@
-import UserModel from  "./user.model.js";
+
 import jwt from "jsonwebtoken"
+import UserRepository from "./user.repository.js";
+import { ApplicationError } from "../../errorHandler/applicationError.js";
 
 export default class UserController{
-    getAllUser(req,res){
-        let users= UserModel.getAll();
+    constructor(){
+        this.userRepository=new UserRepository();
+    }
+   async getAllUser(req,res){
+    try{
+        let users= await this.userRepository.getAll();
         res.status(200).send(users);
     }
-    postUser(req,res){
-        console.log(req.body);
-        let newUser=UserModel.addUser(req.body);
-        res.status(200).send(newUser);
+    catch(err){
+        console.log(err);
+        throw new ApplicationError("Users not found", 400);
+    }
+    }
+    async postUser(req,res){
+        
+        try{
+            let users= await this.userRepository.addUser(req.body);
+            res.status(200).send(users);
+        }
+        catch(err){
+            console.log(err);
+            throw new ApplicationError("something wrong with database", 500);
+        }
     }
 
-    postLogin(req,res){
+   async postLogin(req,res){
         const {email,password}=req.body
-        let user=UserModel.login(email,password);
-        if(user)
-        {
-            const token=jwt.sign({userID:user.id, email:email},
-                "ssLeF2gsR4ZanxkbRCk3ESgm7CUOKUL9",
-            {expiresIn:"1h"})
-            res.status(200).send(token);
-
+        try{
+            let user= await this.userRepository.login(email,password);
+            if(user)
+                {
+                    const token=jwt.sign({userID:user.id, email:email},
+                        "ssLeF2gsR4ZanxkbRCk3ESgm7CUOKUL9",
+                    {expiresIn:"1h"})
+                    res.status(200).send(token);
+        
+                }
+            
         }
-        else
-        res.status(400).send("Invalid email or password");
+        catch(err){
+            console.log(err);
+            throw new ApplicationError("Invalid email or password", 400);
+        }
+      
+       
     }
 
 }

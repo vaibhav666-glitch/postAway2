@@ -1,43 +1,80 @@
-import PostModel from "./post.model.js";
+import { ApplicationError } from "../../errorHandler/applicationError.js";
+
+import PostRepository from "./post.repository.js";
 
 export default class PostController{
-    getAllPost(req,res){
-        let posts=PostModel.getAllPost();
+   constructor(){
+      this.postRepository=new PostRepository();
+   }
+    async getAllPost(req,res){
+      try{
+         let posts=await this.postRepository.getAllPost();
         res.status(200).send(posts);
+      }
+      catch(err){
+         console.log(err);
+         throw new ApplicationError("No post found",400);
+      }
+        
 
     }
 
-    getUserPost(req,res){
-       try{ let posts=PostModel.getUserPost(req.params.id);
+   async getUserPost(req,res){
+       try{
+        
+         let posts= await this.postRepository.getUserPost(req.params.id);
          res.status(200).send(posts);
        }
        catch(err){
          
          res.status(404).send(err.message);
+         throw new ApplicationError("no user and its post found",400);
        }
         
         
     }
-     getUserPostById(req,res){
-        let post=PostModel.getPostById(req.params.id,req.params.id2);
+     async getUserPostById(req,res){
+      try{
+        let post=await this.postRepository.getPostById(req.params.id,req.params.id2);
         res.status(200).send(post);
+      }
+      catch(err){
+         console.log(err);
+         throw new ApplicationError("no post found",400);
+      }
      }
 
-     addPost(req,res){
+     async addPost(req,res){
       const{userId,caption}=req.body;
       const newPost={userId,caption,imageUrl:req.file.filename}
-      PostModel.addPost(newPost);
+      try{
+       await this.postRepository.addPost(newPost);
         res.status(200).send(newPost);
+      }
+      catch(err){
+         console.log(err);
+         throw new ApplicationError("something went wrong with database",400);
+      }
      }
 
-     updatePost(req,res){
-        let updatePost=PostModel.updatePost(req.params.id,req.body);
+    async updatePost(req,res){
+      try{
+        let updatePost=await this.postRepository.updatePost(req.params.id,req.body);
         res.status(200).send(updatePost);
-
+      }
+      catch(err){
+         console.log(err);
+         throw new ApplicationError("something went wrong with database",400);
+      }
      }
-     deletePost(req,res){
-        let deletePost=PostModel.deletePost(req.params.id,req.params.id2);
+    async deletePost(req,res){
+        try{
+         let deletePost=await this.postRepository.deletePost(req.params.id,req.params.id2);
         res.status(200).send(deletePost);
-
+        }
+        catch(err){
+         console.log(err);
+         throw new ApplicationError("something went wrong with database",400);
+        }
      }
 }
