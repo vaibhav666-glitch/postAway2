@@ -49,3 +49,4 @@
 {"level":"info","message":"/api/post/6699cf8207882029569343ce/6699845f3421e2a436d69925-{}"}
 {"level":"info","message":"/api/post/6699845f3421e2a436d69925-{}"}
 {"level":"info","message":"/api/post/6699845f3421e2a436d69925-{}"}
+{"level":"info","message":"/api/user/add-{\"name\":\"jakuza\",\"email\":\"jakuza@ecom.com\",\"password\":\"password5\"}"}

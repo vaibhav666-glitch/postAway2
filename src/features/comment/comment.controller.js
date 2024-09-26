@@ -1,5 +1,5 @@
 import { ApplicationError } from "../../errorHandler/applicationError.js";
-import CommentModel from "./comment.model.js";
+
 import CommentRepository from "./comment.repository.js";
 
 export default class CommentController{

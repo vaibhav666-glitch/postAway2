@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import { commentSchema } from "./comment.schema";
-import { ApplicationError } from "../../errorHandler/applicationError";
+import { commentSchema } from "./comment.schema.js";
+import { ApplicationError } from "../../errorHandler/applicationError.js";
 
 const commentModel= mongoose.model('Comment',commentSchema);
 
@@ -28,7 +28,11 @@ export default class CommentRepository{
 
     async updateComment(commentObj){
         try{
-            return await commentModel.findOneAndUpdate({_id:commentObj.id},commentObj,{new:true} );  
+            const updatedComment= await commentModel.findOneAndUpdate({_id:commentObj.id},commentObj,{new:true} );  
+            if (!updatedComment) {
+                throw new ApplicationError("Comment not found", 404); // Custom error for not found
+            }
+            return updatedComment;
         }
         catch(err){
             console.log(err);
@@ -37,7 +41,7 @@ export default class CommentRepository{
     }
     async deleteComment(commentId){
         try{
-            return await commentModel.findOneAndDelete({_id:commentId});
+            return await commentModel.findOneAndDelete({_id:commentId},{new:true});
         }
         catch(err){
             console.log(err);

@@ -8,8 +8,11 @@ import jwtAuth from "./src/middleware/jwt.middleware.js";
 import loggerMiddleware from "./src/middleware/logger.middleware.js";
 import { ApplicationError } from "./src/errorHandler/applicationError.js";
 import { connectUsingMongoose } from "./src/config/mongooseConfig.js";
+import dotenv from "dotenv";
 
+dotenv.config();
 const server=express();
+const port=process.env.PORT || 3200;
 
 server.use(express.static('public'));
 
@@ -41,7 +44,7 @@ server.use((err, req, res, next)=>{
 })
 
 
-server.listen(3200,()=>{
+server.listen(port,()=>{
     console.log("server is running on port 3200");
     connectUsingMongoose();
 })
