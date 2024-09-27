@@ -59,7 +59,9 @@ export default class PostController{
 
     async updatePost(req,res){
       try{
-        let updatePost=await this.postRepository.updatePost(req.params.id,req.body);
+         const{caption}=req.body;
+      const newPost={caption,imageUrl:req.file.filename}
+        let updatePost=await this.postRepository.updatePost(req.params.id,newPost);
         res.status(200).send(updatePost);
       }
       catch(err){

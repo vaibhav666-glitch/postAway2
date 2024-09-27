@@ -11,7 +11,7 @@ export default class LikeController{
     async getPostLike(req,res){
         try{
             let post=await this.likeRepository.countLikeForPost(req.params.id);
-            res.status(200).send(post);
+            res.status(200).json(post);
         }
         catch(err){
             throw new ApplicationError("something wrong with controller", 400);

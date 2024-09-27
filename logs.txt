@@ -50,3 +50,99 @@
 {"level":"info","message":"/api/post/6699845f3421e2a436d69925-{}"}
 {"level":"info","message":"/api/post/6699845f3421e2a436d69925-{}"}
 {"level":"info","message":"/api/user/add-{\"name\":\"jakuza\",\"email\":\"jakuza@ecom.com\",\"password\":\"password5\"}"}
+{"level":"info","message":"/api/user-{}"}
+{"level":"info","message":"/api/post-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/id:6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/id=6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/id=6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/id:6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/id:6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/?id=6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post?id=6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/id=6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/id=%226699845f3421e2a436d69925%22-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/id:%226699845f3421e2a436d69925%22-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/%226699845f3421e2a436d69925%22-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925/6699cf5f07882029569343cc-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925/-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925/6699cf5f07882029569343cc-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925/6699cf5f07882029569343cc-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925/6699cf5f07882029569343cc-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925/6699cf5f07882029569343cc-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925/6699cf5f07882029569343cc-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925/6699cf5f07882029569343cc-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925/6699cf5f07882029569343cc-{\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\"}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{\"caption\":\"This is my first and last post\"}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{\"caption\":\"This is my first and last post\"}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{\"caption\":\"This is my first and last post\"}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{\"caption\":\"This is my first and last post\",\"imageUrl\":\"yo\"}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{\"caption\":\"This is my first and last post\",\"imageUrl\":\"yo\"}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{\"caption\":\"This is my first and last post\",\"imageUrl\":\"yo\"}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc-{}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc/6699845f3421e2a436d69925-{}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc/6699845f3421e2a436d69925-{}"}
+{"level":"info","message":"/api/post/6699cf5f07882029569343cc/6699845f3421e2a436d69925-{}"}
+{"level":"info","message":"/api/post/6699845f3421e2a436d69925-{}"}
+{"level":"info","message":"/api/comment/-{\"postId\":\"6699cf8207882029569343ce\",\"userId\":\"6699845f3421e2a436d69925\",\"comment\":\"Nice pic\"}"}
+{"level":"info","message":"/api/comment/-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699cf8207882029569343ce\",\"comment\":\"Nice pic\"}"}
+{"level":"info","message":"/api/comment-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699cf8207882029569343ce\",\"comment\":\"Nice pic\"}"}
+{"level":"info","message":"/api/comment-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699cf8207882029569343ce\",\"comment\":\"Nice pic\"}"}
+{"level":"info","message":"/api/comment-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699cf8207882029569343ce\",\"comment\":\"Nice pic\"}"}
+{"level":"info","message":"/api/comment-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699cf8207882029569343ce\",\"comment\":\"Nice pic\"}"}
+{"level":"info","message":"/api/comment-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699cf8207882029569343ce\",\"comment\":\"Nice pic\"}"}
+{"level":"info","message":"/api/comment-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699d04307882029569343d2\",\"comment\":\"chutiya lag raha hai\"}"}
+{"level":"info","message":"/api/comment/6699d04307882029569343d2-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699d04307882029569343d2\",\"comment\":\"chutiya lag raha hai\"}"}
+{"level":"info","message":"/api/comment/6699d04307882029569343d2-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699d04307882029569343d2\",\"comment\":\"chutiya lag raha hai\"}"}
+{"level":"info","message":"/api/comment-{\"_id\":\"66f6f3c6f780987a43679d39\",\"comment\":\"Handsome lag raha hai\"}"}
+{"level":"info","message":"/api/comment-{\"_id\":\"66f6f3c6f780987a43679d39\",\"comment\":\"Handsome lag raha hai\"}"}
+{"level":"info","message":"/api/comment/%2066f6f3c6f780987a43679d39-{\"comment\":\"Handsome lag raha hai\"}"}
+{"level":"info","message":"/api/comment/66f6f3c6f780987a43679d39-{\"comment\":\"Handsome lag raha hai\"}"}
+{"level":"info","message":"/api/like-{\"userId\":\"6699845f3421e2a436d69925\",\"postId\":\"6699d04307882029569343d2\"}"}
+{"level":"info","message":"/api/like/6699d04307882029569343d2/6699845f3421e2a436d69925-{}"}
+{"level":"info","message":"/api/like/6699d04307882029569343d2/joker-{}"}
+{"level":"info","message":"/api/like/6699d04307882029569343d2/69-{}"}
+{"level":"info","message":"/api/like/6699d04307882029569343d2/69-{}"}
+{"level":"info","message":"/api/like/6699d04307882029569343d2/669984b42b811fb52d42a2cc-{}"}
+{"level":"info","message":"/api/like/6699d04307882029569343d2-{}"}
+{"level":"info","message":"/api/like/6699d04307882029569343d2-{}"}
+{"level":"info","message":"/api/user-{}"}
+{"level":"info","message":"/api/user-{\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\"}"}
+{"level":"info","message":"/api/user/add-{\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\"}"}
+{"level":"info","message":"/api/user/add-{\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\"}"}
+{"level":"info","message":"/api/user/add-{\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\"}"}
+{"level":"info","message":"/api/user-{\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\"}"}
+{"level":"info","message":"/api/friend/6699845f3421e2a436d69925/669984b42b811fb52d42a2cc-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925/669984b42b811fb52d42a2cc-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925/669984b42b811fb52d42a2cc-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925/669984b42b811fb52d42a2cc-{}"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925/669984b42b811fb52d42a2cc-{}"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925/66f703663af67a8660c2e340-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925/66f7038b3af67a8660c2e343-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/pending/6699845f3421e2a436d69925-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/pending/6699845f3421e2a436d69925-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/pending/6699845f3421e2a436d69925-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/pending/6699845f3421e2a436d69925-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends/pending/6699845f3421e2a436d69925-[{\"_id\":\"6699845f3421e2a436d69925\",\"name\":\"John\",\"email\":\"john@gmail.com\",\"password\":\"123456d\",\"__v\":0},{\"_id\":\"669984b42b811fb52d42a2cc\",\"name\":\"nehal\",\"email\":\"nehal@gmail.com\",\"password\":\"ddd111\",\"__v\":0},{\"_id\":\"66f703663af67a8660c2e340\",\"name\":\"Ram\",\"email\":\"Ram@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7038b3af67a8660c2e343\",\"name\":\"Mohan\",\"email\":\"Mohan@gmail.com\",\"password\":\"123456\",\"gender\":\"M\",\"__v\":0},{\"_id\":\"66f7039d3af67a8660c2e346\",\"name\":\"angel\",\"email\":\"angel@gmail.com\",\"password\":\"123456\",\"gender\":\"F\",\"__v\":0}]"}
+{"level":"info","message":"/api/friends//6699845f3421e2a436d69925/669984b42b811fb52d42a2cc-{}"}
+{"level":"info","message":"/api/friends//6699845f3421e2a436d69925/669984b42b811fb52d42a2cc-{}"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925/669984b42b811fb52d42a2cc-{}"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925/669984b42b811fb52d42a2cc-{}"}
+{"level":"info","message":"/api/friends/6699845f3421e2a436d69925-{}"}
+{"level":"info","message":"/api/friends/pending/6699845f3421e2a436d69925-{}"}
+{"level":"info","message":"/api/friends/reject/6699845f3421e2a436d69925/66f703663af67a8660c2e340-{}"}
+{"level":"info","message":"/api/friends/reject/6699845f3421e2a436d69925/66f703663af67a8660c2e340-{}"}
+{"level":"info","message":"/api/friends/reject/6699845f3421e2a436d69925/66f703663af67a8660c2e340-{}"}
+{"level":"info","message":"/api/friends/pending/6699845f3421e2a436d69925/66f703663af67a8660c2e340-{}"}
+{"level":"info","message":"/api/friends/pending/6699845f3421e2a436d69925-{}"}

@@ -29,9 +29,9 @@ export default class PostRepository{
             
         }
     }
-    async getPostById(id,userId){
+    async getPostById(userId,id){
         try{
-            const posts= await postModel.findOne(id,userId)
+            const posts = await postModel.find({userId:userId,_id:id});
             return posts;
         }
         catch(err){
@@ -59,7 +59,7 @@ export default class PostRepository{
     async updatePost(id, postObj)
     {
         try{
-        const post = await postModel.find({_id:id,userId:userId});
+        const post = await postModel.findById(id);
         if(post)
             {
                 post.caption = postObj.caption;
@@ -79,11 +79,11 @@ export default class PostRepository{
     async deletePost(id,userId)
     {
         try{
-        const post = await postModel.findOne({_id:id,userId:userId});
+        const post = await postModel.findOneAndDelete({_id:id,userId:userId});
        console.log(post);
         if(post)
             {
-                await post.remove();
+                
                 return true;
                 
 

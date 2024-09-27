@@ -9,6 +9,7 @@ import loggerMiddleware from "./src/middleware/logger.middleware.js";
 import { ApplicationError } from "./src/errorHandler/applicationError.js";
 import { connectUsingMongoose } from "./src/config/mongooseConfig.js";
 import dotenv from "dotenv";
+import FriendRouter from "./src/features/friends/friends.route.js";
 
 dotenv.config();
 const server=express();
@@ -20,9 +21,10 @@ server.use(express.static('public'));
 server.use(bodyParser.json());
 server.use(loggerMiddleware);
 server.use("/api/user",UserRouter);
-server.use("/api/post",jwtAuth, PostRouter);
-server.use("/api/comment",jwtAuth,CommentRouter);
-server.use('/api/like',jwtAuth,LikeRouter);
+server.use("/api/post", PostRouter);
+server.use("/api/comment",CommentRouter);
+server.use('/api/like',LikeRouter);
+server.use('/api/friends',FriendRouter)
 
 
 

@@ -21,9 +21,9 @@ export default class FriendRepository{
 
     async acceptRequest(userId,friendId){
         try{
-                let friend= friendModel.findOne({userId:userId,friendId:friendId},{new:true})
-                friend.toggleFriend=true;
-               
+                let friend= await friendModel.findOne({userId:userId,friendId:friendId},{new:true})
+                friend.toggleFriends=true;
+               await friend.save();
                 return friend;
 
         }
@@ -34,7 +34,7 @@ export default class FriendRepository{
     }
     async rejectRequest(userId,friendId){
         try{
-                let friend= friendModel.findByIdAndDelete({userId:userId,friendId:friendId},{new:true})
+                let friend=await friendModel.findOneAndDelete({userId:userId,friendId:friendId},{new:true})
                 return friend;
 
         }

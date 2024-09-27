@@ -26,9 +26,10 @@ export default class CommentRepository{
         }
     }
 
-    async updateComment(commentObj){
+    async updateComment(commentObj,id){
         try{
-            const updatedComment= await commentModel.findOneAndUpdate({_id:commentObj.id},commentObj,{new:true} );  
+            console.log(commentObj,id);
+            const updatedComment= await commentModel.findOneAndUpdate({_id:id},commentObj,{new:true} );  
             if (!updatedComment) {
                 throw new ApplicationError("Comment not found", 404); // Custom error for not found
             }
@@ -39,9 +40,9 @@ export default class CommentRepository{
             throw new ApplicationError("Something is wrong with database ",500)
         }
     }
-    async deleteComment(commentId){
+    async deleteComment(userId,postId){
         try{
-            return await commentModel.findOneAndDelete({_id:commentId},{new:true});
+            return await commentModel.findOneAndDelete({userId:userId,postId:postId},{new:true});
         }
         catch(err){
             console.log(err);
