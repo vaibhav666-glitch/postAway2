@@ -21,10 +21,10 @@ server.use(express.static('public'));
 server.use(bodyParser.json());
 server.use(loggerMiddleware);
 server.use("/api/user",UserRouter);
-server.use("/api/post", PostRouter);
-server.use("/api/comment",CommentRouter);
-server.use('/api/like',LikeRouter);
-server.use('/api/friends',FriendRouter)
+server.use("/api/post",jwtAuth, PostRouter);
+server.use("/api/comment",jwtAuth,CommentRouter);
+server.use('/api/like',jwtAuth,LikeRouter);
+server.use('/api/friends',jwtAuth,FriendRouter)
 
 
 
